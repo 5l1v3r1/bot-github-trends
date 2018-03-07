@@ -5,7 +5,7 @@ module.exports = function(vorpal) {
   vorpal
     .command("github-trends")
     .alias("gt")
-    .description("Show today's github trends")
+    .description("Show today's github trends in JavaScript")
     .action(function(args, callback) {
       trending("daily", "javascript")
         .then(repos => {
