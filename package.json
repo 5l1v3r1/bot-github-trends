@@ -1,5 +1,5 @@
 {
-  "name": "command-github-trends",
+  "name": "bot-github-trends",
   "version": "1.0.0",
   "dependencies": {
     "chalk": "^2.3.0",
